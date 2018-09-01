@@ -1,0 +1,47 @@
+#base {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*transform: scale(1.5);*/
+}
+
+path { 
+	stroke: pink;
+	stroke-width:1px;
+	fill: lightgrey;
+	transition: all 1s ease-out;
+}
+
+path:hover {
+  stroke: #000000 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #ff0000 !important;
+  cursor: pointer;
+}
+/*
+circle {
+	margin: 50px auto;
+	padding: 10px;
+	transition: 1s ease-out;
+}
+circle:hover {
+	fill : #ff0000;
+	transform: scale(1.1);
+}
+*/
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  /*padding: 5px;*/
+  font-family: arial;
+}
